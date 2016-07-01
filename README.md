@@ -1,6 +1,6 @@
 
 # Trading rules suggested by Robbie Burns in the book 'The Naked Trader' (2011)
-*Author: David Greatrex, PhD Candidate, University of Cambridge.  
+*Author: David Greatrex, University of Cambridge.  
 *Date: 01/03/2016 -- Language: LaTeX. -- Modifications:
 
 ## Summary:
