@@ -1,0 +1,58 @@
+%----------------------------------------------------------------------------------------------
+% Title:	Notes from, Burns, R. The Naked Trader: How anyone can make money trading shares. 3rd Edition, Harriman House. Petersfield.
+% Author:	D. Greatrex
+% Date:	28/06/2016
+% Sections: 
+%----------------------------------------------------------------------------------------------
+
+%-----------------------------------------------------------------
+% Setup
+%-----------------------------------------------------------------
+% template taken from: http://www.latextemplates.com/template/large-colored-title-article
+\documentclass[DIV=calc, paper=a4, fontsize=11pt, twocolumn]{scrartcl}	 % A4 paper and 11pt font size
+\usepackage{setupDoc} 
+%\environments
+
+%-----------------------------------------------------------------
+% Title
+%-----------------------------------------------------------------
+\usepackage{titling} % Allows custom title configuration
+\newcommand{\HorRule}{\color{DarkGoldenrod} \rule{\linewidth}{1pt}} % Defines the gold horizontal rule around the title
+\pretitle{\vspace{-30pt} \begin{flushleft} \HorRule \fontsize{50}{50} \usefont{OT1}{phv}{b}{n} \color{DarkRed} \selectfont} % Line before title
+\title{Notes from The Naked Trader} % Your article title
+\posttitle{\par\end{flushleft}\vskip 0.5em} % Whitespace under the title
+\preauthor{\begin{flushleft}\large \lineskip 0.5em \usefont{OT1}{phv}{b}{sl} \color{DarkRed}} % Author font configuration
+\author{David Greatrex, } % Your name
+\postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} % Configuration for the institution name
+University of Cambridge % Your institution
+\par\end{flushleft}\HorRule} % Horizontal rule after the title
+\date{28/06/2016} % Add a date here if you would like one to appear underneath the title block
+
+%-----------------------------------------------------------------
+% Begin document
+%-----------------------------------------------------------------
+\begin{document}
+\maketitle % Print the title
+\thispagestyle{fancy} % Enabling the custom headers/footers for the first page 
+
+%-----------------------------------------------------------------
+% Abstract
+%-----------------------------------------------------------------
+\input{front/abstract}
+
+%-----------------------------------------------------------------
+% Main matter
+%-----------------------------------------------------------------
+\input{main/review}
+
+%-----------------------------------------------------------------
+% Back matter
+%-----------------------------------------------------------------
+\bibliographystyle{apalike}
+\bibliography{Master}
+
+
+%-----------------------------------------------------------------
+% End document
+%-----------------------------------------------------------------
+\end{document}
