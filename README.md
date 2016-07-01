@@ -4,7 +4,7 @@
 *Date: 01/03/2016 -- Language: LaTeX. -- Modifications:
 
 ## Summary:
-This folder contains an article that documents the key trading rules for buying equity 
+This folder contains an article that documents the key trading rules for buying and selling equity 
 shares as suggested by Robbie Burns in the book 'The Naked Trader' (2011).
 
 ## The Book:
